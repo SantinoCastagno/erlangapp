@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/santinoc/Documentos/Facultad/Alumno/LD/TPO2/appsantino/erlangapp'
+make fix-slim-release
+(export PATH=`pwd`/`echo erts-*/bin`:$PATH; echo "Using Erlang in `which erl`"; ./rebar -q get-deps)
+(export PATH=`pwd`/`echo erts-*/bin`:$PATH;escript do-plugins.escript)
+(export PATH=`pwd`/`echo erts-*/bin`:$PATH; echo "Using Erlang in `which erl`"; ./rebar -q compile)
+make: Leaving directory '/home/santinoc/Documentos/Facultad/Alumno/LD/TPO2/appsantino/erlangapp'
+ 

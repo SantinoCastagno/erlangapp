@@ -1,0 +1,424 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon May 30 18:43:25 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+GTK_RC_FILES = /etc/gtk/gtkrc:/home/santinoc/.gtkrc:/home/santinoc/.config/gtkrc
+# makefile (from 'Makefile', line 5)
+REBAR = ./rebar -q
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-c7313108-0489-4354-a600-839429a8083d.sock
+# environment
+VSCODE_CWD = /home/santinoc
+# environment
+NVM_DIR = /home/santinoc/.nvm
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/santinoc/Documentos/Facultad/Alumno/LD/TPO2/appsantino/erlangapp
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+NVM_INC = /home/santinoc/.nvm/versions/node/v17.9.0/include/node
+# environment
+VSCODE_CODE_CACHE_PATH = /home/santinoc/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session1
+# environment
+LANG = C
+# environment
+XAUTHORITY = /home/santinoc/.Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/santinoc/Documentos/Facultad/Alumno/LD/TPO2/appsantino/erlangapp
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+PAM_KWALLET5_LOGIN = /run/user/1000/kwallet5.socket
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /tmp/ssh-k7d2vk2ZkiJ6/agent.1201
+# default
+.SHELLFLAGS := -c
+# environment
+NVM_BIN = /home/santinoc/.nvm/versions/node/v17.9.0/bin
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XCURSOR_THEME = breeze_cursors
+# environment
+XDG_SESSION_DESKTOP = KDE
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 39600
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+SESSION_MANAGER = local/debian-santino:@/tmp/.ICE-unix/1349,unix/debian-santino:/tmp/.ICE-unix/1349
+# automatic
+*F = $(notdir $*)
+# environment
+MANPATH = /home/santinoc/.ciao/build/doc:/home/santinoc/.ciaoroot/v1.21.0-m1/build/doc:
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es-419","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+INFOPATH = /home/santinoc/.ciao/build/doc:/home/santinoc/.ciaoroot/v1.21.0-m1/build/doc:
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/santinoc/.ciao/build/bin:/home/santinoc/.ciaoroot/v1.21.0-m1/build/bin:/home/santinoc/.nvm/versions/node/v17.9.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin:/home/santinoc/setup/flutter/bin
+# default
+MAKEFILES := 
+# environment
+LANGUAGE = es_AR:es
+# automatic
+^F = $(notdir $^)
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?F = $(notdir $?)
+# environment
+KDE_APPLICATIONS_AS_SCOPE = 1
+# environment
+XDG_SEAT = seat0
+# environment
+XDG_CURRENT_DESKTOP = KDE
+# environment
+LS_COLORS = 
+# automatic
++F = $(notdir $+)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+DESKTOP_SESSION = plasma
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = KDE
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = santinoc
+# environment
+XDG_VTNR = 7
+# makefile (from 'Makefile', line 38)
+DEPS_PLT = $(CURDIR)/.deps_plt
+# makefile
+.DEFAULT_GOAL := all
+# environment
+DISPLAY = :0
+# environment
+USER = santinoc
+# environment
+GTK_MODULES = gail:atk-bridge
+# default
+MAKE_VERSION := 4.3
+# environment
+KDE_SESSION_UID = 1000
+# environment
+SSH_AGENT_PID = 1240
+# environment
+_ = /usr/share/code/code
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+NVM_CD_FLAGS = 
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+GTK2_RC_FILES = /etc/gtk-2.0/gtkrc:/home/santinoc/.gtkrc-2.0:/home/santinoc/.config/gtkrc-2.0
+# environment
+HOME = /home/santinoc
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-1863a99f-1.67.2-main.sock
+# environment
+XDG_SESSION_ID = 3
+# environment
+XCURSOR_SIZE = 24
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 39)
+DEPS = erts kernel stdlib sasl lib/nitrogen_core lib/simple_bridge lib/nprocreg lib/nitro_cache lib/rekt lib/qdate
+# default
+SUFFIXES := 
+# environment
+QT_AUTO_SCREEN_SCALE_FACTOR = 0
+# environment
+KDE_SESSION_VERSION = 5
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# environment
+KDE_FULL_SESSION = true
+# variable set hash-table stats:
+# Load=103/1024=10%, Rehash=0, Collisions=3/142=2%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2054, inode 13112994): 18 files, no impossibilities.
+
+# 18 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+copy-static:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 27):
+	@(mkdir -p site/static/nitrogen)
+	@(cp -r lib/nitrogen_core/www/* site/static/nitrogen/)
+
+eunit: get-deps compile
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 21):
+	@(export PATH=`pwd`/`echo erts-*/bin`:$$PATH; echo "Using Erlang in `which erl`"; $(REBAR) skip_deps=true eunit)
+
+cookie:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 8):
+	@echo Generating a default cookie in /etc/vm.args
+	@(echo -setcookie `openssl rand -base64 50 | head -n1 | sed -e 's/[^a-zA-Z0-9]//g'` >> etc/vm.args)
+
+update: update-deps copy-static compile
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 51):
+	@(echo "*** CONGRATULATIONS ***")
+	@(echo "Your Nitrogen installation has been upgraded.")
+	@(echo "You may need to manually merge any changes that may have been made to")
+	@(echo "configuration files as well as the initialization modules:")
+	@(echo "    site/src/nitrogen_sup.erl")
+	@(echo "    site/src/nitrogen_PLATFORM.erl")
+	@(echo "    site/src/nitrogen_app.erl")
+	@(echo "")
+
+compile:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 12):
+	@(export PATH=`pwd`/`echo erts-*/bin`:$$PATH; echo "Using Erlang in `which erl`"; $(REBAR) compile)
+
+update-deps:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 18):
+	@(export PATH=`pwd`/`echo erts-*/bin`:$$PATH; echo "Using Erlang in `which erl`"; $(REBAR) update-deps)
+
+fix-slim-release:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 35):
+	@echo Fixing slim release to the version of Erlang installed on this machine
+	@(./fix-slim-release)
+
+releases:
+#  Implicit rule search has not been done.
+#  Last modified 2022-05-30 18:40:30.885872134
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 24):
+	make fix-slim-release
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-30 18:40:30.893872098
+#  File has been updated.
+#  Successfully updated.
+
+plugins:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 31):
+	@(export PATH=`pwd`/`echo erts-*/bin`:$$PATH;escript do-plugins.escript)
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 63):
+	@(export PATH=`pwd`/`echo erts-*/bin`:$$PATH; $(REBAR) clean)
+
+/home/santinoc/Documentos/Facultad/Alumno/LD/TPO2/appsantino/erlangapp/.deps_plt:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 42):
+	@echo Building local plt at $(DEPS_PLT)
+	@echo 
+	@(export PATH=`pwd`/`echo erts-*/bin`:$$PATH; echo "Using Dialyzer in `which dialyzer`"; dialyzer --output_plt $(DEPS_PLT) --build_plt --apps $(DEPS) -r ./lib)
+
+upgrade: update
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ 
+all: releases get-deps plugins compile
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/4=0%
+
+test:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+dialyzer: all /home/santinoc/Documentos/Facultad/Alumno/LD/TPO2/appsantino/erlangapp/.deps_plt
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 48):
+	@(export PATH=`pwd`/`echo erts-*/bin`:$$PATH; echo "Using Dialyzer in `which dialyzer`"; dialyzer --fullpath --plt $(DEPS_PLT) -Wrace_conditions -r ./site/ebin)
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: fix-slim-release test
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+get-deps:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := get-deps
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/12=8%
+#  recipe to execute (from 'Makefile', line 15):
+	@(export PATH=`pwd`/`echo erts-*/bin`:$$PATH; echo "Using Erlang in `which erl`"; $(REBAR) get-deps)
+
+# files hash-table stats:
+# Load=20/1024=2%, Rehash=0, Collisions=0/51=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 37 / storage = 397 B / avg = 10 B
+# current buf: size = 8162 B / used = 397 B / count = 37 / avg = 10 B
+
+# strcache performance: lookups = 74 / hit rate = 50%
+# hash-table stats:
+# Load=37/8192=0%, Rehash=0, Collisions=0/74=0%
+# Finished Make data base on Mon May 30 18:43:25 2022
+
+ 
